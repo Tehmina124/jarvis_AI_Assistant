@@ -1,7 +1,9 @@
+
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
 app = FastAPI(title="JARVIS AI Assistant")
+
 
 @app.get("/", response_class=HTMLResponse)
 def home():
@@ -26,19 +28,22 @@ def home():
                 border-radius: 20px;
                 background: #211b45;
             }
-            h1 { color: #80eaff; }
-            p { line-height: 1.8; }
+            h1 {
+                color: #80eaff;
+            }
+            p {
+                line-height: 1.8;
+            }
         </style>
     </head>
     <body>
         <div class="card">
-            <h1>JARVIS AI Assistant</h1>
+            <h1>🤖 JARVIS AI Assistant</h1>
             <h2>Welcome, Tehmina!</h2>
             <p>Your AI assistant website is running.</p>
             <p>AI Chat | Calculator | Study Assistant</p>
             <p>Coding Assistant | PDF Assistant | Notes & Tasks</p>
-            <p>Next step: Connect the AI features to this website.</p>
         </div>
     </body>
     </html>
-  
+    
