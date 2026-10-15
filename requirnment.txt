@@ -1,4 +1,0 @@
-groq
-python-dotenv
-ddgs
-pypdf
