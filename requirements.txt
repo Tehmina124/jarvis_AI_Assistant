@@ -1,1 +1,6 @@
-
+groq
+python-dotenv
+ddgs
+pypdf
+fastapi
+uvicorn
